@@ -1,25 +1,93 @@
 <html>
   <head>
-  <title>
-  </title>
-  <style>
-      </style>
-    </head>
-  <body id="main">
-    <div id="n">
-      <h2 id="title">Bill Gate</h2>
+    <title>tribute</title>
+    <style></style>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main id="main">
+      <div class="bg-red-300 h-40 relative">
+        <div class="p-10 w-full flex">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/World_Economic_Forum_logo.svg/200px-World_Economic_Forum_logo.svg.png"
+            class="
+              w-40
+              h-40
+              bg-white
+              rounded-full
+              border-blue-400 border-2
+              m-2
+              object-contain
+            "
+          />
+          <h3
+            id="title"
+            class="pl-20 text-4xl text-white font-mono self-center"
+          >
+            Bill Gates
+          </h3>
+        </div>
       </div>
-    <div>
-    <div id="img-div">
-      <img id="image" src="https://images.moneycontrol.com/static-mcnews/2020/10/bill-gates-1-770x433.jpg?impolicy=website&width=770&height=431" alt="bill_gets_picture">
-      <div id="img-caption">
-        <p>test</p>
+      <div class="flex pt-10">
+        <div class="w-full p-10">
+          <ul class="list-disc p-4 mr-4">
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit</li>
+            <li><a id="tribute-link" href="#" target="_blank">More</a></li>
+            <div id="tribute-info">info</div>
+          </ul>
+        </div>
+        <div class="w-full" id="img-div">
+          <div class="relative p-10">
+            <img
+              id="image"
+              src="https://images.moneycontrol.com/static-mcnews/2020/10/bill-gates-1-770x433.jpg?impolicy=website&width=770&height=431"
+              alt="bill_gets_picture"
+              class="
+                border border-blue-400
+                p-1
+                rounded-lg
+                object-contain
+                md:object-scale-down
+                m-auto
+              "
+            />
+
+            <div
+              id="img-caption"
+              class="
+                mt-6
+                m-auto
+                absolute
+                w-1/2
+                py-2.5
+                bottom-0
+                inset-x-0
+                bg-blue-400
+                text-white text-xs text-center
+                leading-4
+              "
+            >
+              <p class="text-xs">
+                bill gates pandemic covid coronavirus work travel business
+                digital
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <a id="tribute-link" href="#" target="_blank">Link</a>
-      <div id="tribute-info">
-        tribute-info
-      </div>
-    </div>
-      
-    </body>
+    </main>
+  </body>
 </html>
